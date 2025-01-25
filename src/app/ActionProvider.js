@@ -2,7 +2,7 @@ import OpenAI from "openai";
 import { createChatBotMessage, createClientMessage, createCustomMessage } from "react-chatbot-kit";
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API,
+    apiKey: process.env.OPENAI_API_KEY,
     baseURL: 'https://api.aimlapi.com',
     dangerouslyAllowBrowser: true
 })
